@@ -1,0 +1,7 @@
+git show bf78bc88c3c4b8b4c33c26dc057a3f4acb12c588:example1.xml
+
+links:
+GITPython Library: https://gitpython.readthedocs.io/en/stable/intro.html or https://www.dulwich.io/getting-started.html
+Other libraries: https://stackoverflow.com/questions/1456269/python-git-module-experiences
+GitPython Push: https://stackoverflow.com/questions/41836988/git-push-via-gitpython/54111480
+How to retrieve a single file from revision: https://stackoverflow.com/questions/610208/how-to-retrieve-a-single-file-from-a-specific-revision-in-git

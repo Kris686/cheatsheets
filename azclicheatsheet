@@ -1,0 +1,14 @@
+# list all subscriptions
+az account list -o table 
+# list all locations
+az account list-locations -o table 
+# list all resource groups
+az group list -o table 
+# Create new resource group
+az group create --location westeurope --name PythonDEVRG --subscription e2fd4b03-3917-465d-b4ab-24c1e49c74f1 
+# list all available images in location
+az vm image list --location westeurope 
+# list centos images in location
+az vm image list --location westeurope --offer CentOS 
+# create new vm  
+az vm create --resource-group PythonDEVRG --name CentOS75 --image OpenLogic:CentOS:7.5:latest --authentication-type {ssh,password,all} --admin-username kris --admin-password password
